@@ -1,0 +1,181 @@
+
+.navbar-brown {
+  background-color: #394034;
+}
+.navbar-nav .nav-link:hover{
+  color: #D78325;
+}
+.navbar-nav .nav-link.active.d-inline-block i{
+  margin-left:10px ;
+}
+.btn-profile:hover,.btn-cart:hover{
+  background-color: #D78325;
+}
+.btn-checkout{
+  background-color:#D78325;
+  height: 40px;
+  width: 90%;
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 25px;
+
+}
+.btn-checkout:hover,.btn-login:hover{
+  background-color: #394034;
+  color: white;
+}
+.img-cart{
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+}
+.emaill,.passwordd{
+  padding-left: 90px;
+  padding-bottom: 5px;
+}
+.email,.password{
+  width: 60%;
+  height: 40px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+.btn-login{
+  background-color:#D78325;
+  height: 40px;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 90px;
+}
+.banner{
+    background: url('img-coffee/image-1.jpg')no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:100px;
+    font: bold;
+    color: white;
+    position: relative;
+}
+.btn-order-now{
+  background-color: #D78325;
+}
+
+.crop-img {
+    object-fit: cover;
+  }
+.menu{
+    background-color:white;
+    
+    padding-bottom:100px;
+}
+.card-image{
+  padding: 20px;
+  height: 350px;
+  margin-top: 20px;
+
+}
+.btn-view-product,.btn-popup{
+  background-color: #D78325;
+  color: white;
+}
+
+.plus-btn:hover,
+.minus-btn:hover,.btn-popup:hover,.btn-view-product:hover,.btn-order-now:hover {
+  background-color: #394034;
+  color:white;
+}
+.gmbr-popup{
+  height: 250px;
+  width: 200px;
+}
+.btn-popup{
+    width: 45%;
+    height: 45px;
+    border: none;
+    background-color: #D78325;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    
+}
+.quantity {
+    position: relative;
+    display: flex;
+  }
+  
+  .quantity-input{
+    width: 50px;
+    text-align: center;
+  }
+  
+  .plus-btn,
+  .minus-btn
+{
+    cursor: pointer;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #D78325;
+    border: none;
+    margin: 5px;
+  }
+  .lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    background-color: #E5DCD3;
+  }
+  
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+.album{
+  height: 200px;
+  padding: 10px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+.gallery-item:hover .album {
+  transform: scale(1.1); /* Menggunakan skala 1.1 untuk memperbesar gambar */
+}
+
+.gallery-item {
+  overflow: hidden; /* Memastikan gambar tidak keluar dari batas kotak gambar saat membesar */
+}
+
+  .about{
+    background-color: #99847D;
+    padding-bottom: 100px;
+  }
+  .img-about{
+    margin-left: 50px;
+  }
+  .kontak{
+    background-color: #935831;
+    padding-top: 70px;
+    color: white;
+    padding-bottom: 100px;
+  }
+.footer{
+  background-color: #394034;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn-kirim-pesan{
+  background-color: #D78325;
+  color: white;
+}
+.btn-kirim-pesan:hover{
+  background-color:#394034;
+  color: white;
+}

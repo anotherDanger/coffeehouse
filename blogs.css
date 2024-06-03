@@ -1,0 +1,50 @@
+.navbar-brown {
+    background-color: #394034;
+  }
+
+  .navbar-nav .nav-link:hover{
+    color: #D78325;
+  }
+
+  .banner{
+    background: url("img-blogs/imgconten.jpeg");
+    padding-top: 40%;
+    background-size: cover;
+    padding-bottom: 3%;
+    color: white;
+}
+.kotak{
+    height: 300px;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    top: -100px;
+    border: 1px solid #ccc ;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.3);
+}
+ article{
+    margin-top: -50px;
+    padding-top: px;
+    margin-left: 2%;
+    margin-right: 2%;
+ }
+ .justified-text {
+    text-align: justify;
+    padding-right: 20px
+}
+
+.crop-img {
+    margin-left: 20px; /* Adjust the value as needed */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    border-radius: 5px;
+}
+.crop-img:hover{
+    transform: scale(0.9); /* Increase size by 10% on hover */
+}
+
+
+.footer{
+    background-color: #394034;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
