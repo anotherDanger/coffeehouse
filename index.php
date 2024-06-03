@@ -1,3 +1,29 @@
+<?php 
+
+require_once "loginFunctions/functions.php";
+
+$login = new Login();
+$validate = $login->validate($_POST);
+if(isset($_POST["login"]))
+{
+  if($validate)
+  {
+    echo "<script>
+                    alert('Berhasil Login');
+
+                </script>";
+  }else
+  {
+    echo "<script>
+                    alert('Username/Password Salah');
+                </script>";
+  }
+}
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -437,14 +463,16 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <label for="email" class="emaill">Email</label><br>
-          <input type="email" id="email" class="email" placeholder="Masukan email anda"><br>
+          <form action="" method="post">
+            <label for="email" class="emaill">Username</label><br>
+            <input type="text" name ="username" id="email" class="email" placeholder="Masukan Username anda"><br>
           
-          <label for="Password" class="passwordd">Password</label><br>
-          <input type="password" id="pass" class="password" placeholder="Masukan Passowrd" >
+            <label for="Password" class="passwordd">Password</label><br>
+            <input type="password" name ="password" id="pass" class="password" placeholder="Masukan Password" >
 
-          <button type="button" class="btn btn-login">Login</button>
+            <button type="submit" name ="login" class="btn btn-login">Login</button>
           <a href="" style="text-decoration: none;">
+          </form>
             <p class="text-center">Create Account</p>
          </a>  
       </div>
