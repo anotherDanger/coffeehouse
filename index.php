@@ -437,11 +437,11 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <label for="email" class="emaill">Email</label><br>
-          <input type="email" id="email" class="email" placeholder="Masukan email anda"><br>
+          <label for="email" class="emaill">Username</label><br>
+          <input type="text" id="email" class="email" placeholder="Masukan Username anda"><br>
           
           <label for="Password" class="passwordd">Password</label><br>
-          <input type="password" id="pass" class="password" placeholder="Masukan Passowrd" >
+          <input type="password" id="pass" class="password" placeholder="Masukan Password" >
 
           <button type="button" class="btn btn-login">Login</button>
           <a href="" style="text-decoration: none;">
